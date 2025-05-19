@@ -1,0 +1,93 @@
+.main-header {
+    background-color: #242424;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+    padding-bottom: 0;
+}
+
+.world-map-chart {
+    flex: 1 1 300px;
+    background-color: #484848;
+    border-radius: 16px;
+    padding: 4.3rem 1.6rem;
+    border: 4px solid rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    min-height: 70vh;
+    max-height: 80vh;
+}
+
+.tooltip {
+  font-size: 15px;
+  pointer-events: none;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.base-container {
+    background-color: #242424;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.base-container h2{
+    margin: 0;
+    padding: 20px 10px;
+    font-size: 2.4rem;
+    color: #ffffff;
+    line-height: 1.5;
+}
+
+.base-container h3{
+    margin: 0;
+    padding: 20px 20px;
+    font-size: 1rem;
+    color: #d0d0d0;
+    line-height: 1.5;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding: 0rem 0rem;
+    gap: 3rem;
+    background-color: #242424;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', sans-serif;
+    padding-bottom: 7vh;
+}
+
+.chart-box {
+    flex: 1 1 500px;
+    max-width: 600px;
+}
+
+.chart-description {
+    flex: 1 1 300px;
+    max-width: 800px;
+    background-color: #484848;
+    border-radius: 16px;
+    padding: 4.3rem 1.6rem;
+    border: 4px solid rgb(255, 255, 255); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.chart-description h2 {
+    font-size: 2.4rem;
+    color: #ffffff;
+    line-height: 1.5;
+}

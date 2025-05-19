@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+hotel-booking/node_modules
+hotel-booking/.pnp
+hotel-booking/.pnp.js
+
+# testing
+hotel-booking/coverage
+
+# production
+hotel-booking/build
+
+# misc
+hotel-booking/.DS_Store
+hotel-booking/.env.local
+hotel-booking/.env.development.local
+hotel-booking/.env.test.local
+hotel-booking/.env.production.local
+
+hotel-booking/npm-debug.log*
+hotel-booking/yarn-debug.log*
+hotel-booking/yarn-error.log*
