@@ -1,14 +1,266 @@
 {
     "chart1": {
-        "confirmed": 68588,
-        "canceled": 41991
+        "confirmed": 72976,
+        "canceled": 43948
     },
     "chart2": {
+        "Cambodia": {
+            "total_books": 2,
+            "cancelations": 2,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Benin": {
+            "total_books": 3,
+            "cancelations": 3,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Guernsey": {
+            "total_books": 3,
+            "cancelations": 3,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Guadeloupe": {
+            "total_books": 2,
+            "cancelations": 2,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Honduras": {
+            "total_books": 1,
+            "cancelations": 1,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Isle of Man": {
+            "total_books": 2,
+            "cancelations": 2,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Jersey": {
+            "total_books": 8,
+            "cancelations": 8,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Mayotte": {
+            "total_books": 2,
+            "cancelations": 2,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Nicaragua": {
+            "total_books": 1,
+            "cancelations": 1,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Fiji": {
+            "total_books": 1,
+            "cancelations": 1,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "United States Minor Outlying Islands": {
+            "total_books": 1,
+            "cancelations": 1,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "British Virgin Islands": {
+            "total_books": 1,
+            "cancelations": 1,
+            "confirmations": 0,
+            "cancelations_rate": 100.0
+        },
+        "Macau": {
+            "total_books": 16,
+            "cancelations": 15,
+            "confirmations": 1,
+            "cancelations_rate": 93.75
+        },
+        "Hong Kong": {
+            "total_books": 29,
+            "cancelations": 26,
+            "confirmations": 3,
+            "cancelations_rate": 89.65517241379311
+        },
+        "Tajikistan": {
+            "total_books": 9,
+            "cancelations": 8,
+            "confirmations": 1,
+            "cancelations_rate": 88.88888888888889
+        },
+        "United Arab Emirates": {
+            "total_books": 50,
+            "cancelations": 43,
+            "confirmations": 7,
+            "cancelations_rate": 86.0
+        },
+        "Faroe Islands": {
+            "total_books": 5,
+            "cancelations": 4,
+            "confirmations": 1,
+            "cancelations_rate": 80.0
+        },
+        "Bahrain": {
+            "total_books": 5,
+            "cancelations": 4,
+            "confirmations": 1,
+            "cancelations_rate": 80.0
+        },
+        "Qatar": {
+            "total_books": 14,
+            "cancelations": 11,
+            "confirmations": 3,
+            "cancelations_rate": 78.57142857142857
+        },
+        "Tanzania": {
+            "total_books": 4,
+            "cancelations": 3,
+            "confirmations": 1,
+            "cancelations_rate": 75.0
+        },
+        "Bangladesh": {
+            "total_books": 12,
+            "cancelations": 9,
+            "confirmations": 3,
+            "cancelations_rate": 75.0
+        },
+        "Maldives": {
+            "total_books": 12,
+            "cancelations": 9,
+            "confirmations": 3,
+            "cancelations_rate": 75.0
+        },
+        "Senegal": {
+            "total_books": 11,
+            "cancelations": 8,
+            "confirmations": 3,
+            "cancelations_rate": 72.72727272727273
+        },
+        "Andorra": {
+            "total_books": 7,
+            "cancelations": 5,
+            "confirmations": 2,
+            "cancelations_rate": 71.42857142857143
+        },
+        "Saudi Arabia": {
+            "total_books": 48,
+            "cancelations": 33,
+            "confirmations": 15,
+            "cancelations_rate": 68.75
+        },
+        "Indonesia": {
+            "total_books": 35,
+            "cancelations": 24,
+            "confirmations": 11,
+            "cancelations_rate": 68.57142857142857
+        },
+        "Georgia": {
+            "total_books": 22,
+            "cancelations": 15,
+            "confirmations": 7,
+            "cancelations_rate": 68.18181818181817
+        },
+        "Pakistan": {
+            "total_books": 14,
+            "cancelations": 9,
+            "confirmations": 5,
+            "cancelations_rate": 64.28571428571429
+        },
+        "Philippines": {
+            "total_books": 40,
+            "cancelations": 25,
+            "confirmations": 15,
+            "cancelations_rate": 62.5
+        },
+        "Nigeria": {
+            "total_books": 34,
+            "cancelations": 21,
+            "confirmations": 13,
+            "cancelations_rate": 61.76470588235294
+        },
+        "Gibraltar": {
+            "total_books": 18,
+            "cancelations": 11,
+            "confirmations": 7,
+            "cancelations_rate": 61.111111111111114
+        },
         "Portugal": {
             "total_books": 47020,
             "cancelations": 27326,
             "confirmations": 19694,
             "cancelations_rate": 58.11569544874522
+        },
+        "Angola": {
+            "total_books": 355,
+            "cancelations": 205,
+            "confirmations": 150,
+            "cancelations_rate": 57.74647887323944
+        },
+        "Dominican Republic": {
+            "total_books": 14,
+            "cancelations": 8,
+            "confirmations": 6,
+            "cancelations_rate": 57.14285714285714
+        },
+        "Azerbaijan": {
+            "total_books": 17,
+            "cancelations": 9,
+            "confirmations": 8,
+            "cancelations_rate": 52.94117647058824
+        },
+        "Uzbekistan": {
+            "total_books": 4,
+            "cancelations": 2,
+            "confirmations": 2,
+            "cancelations_rate": 50.0
+        },
+        "Seychelles": {
+            "total_books": 2,
+            "cancelations": 1,
+            "confirmations": 1,
+            "cancelations_rate": 50.0
+        },
+        "Ghana": {
+            "total_books": 4,
+            "cancelations": 2,
+            "confirmations": 2,
+            "cancelations_rate": 50.0
+        },
+        "Zambia": {
+            "total_books": 2,
+            "cancelations": 1,
+            "confirmations": 1,
+            "cancelations_rate": 50.0
+        },
+        "Tunisia": {
+            "total_books": 38,
+            "cancelations": 19,
+            "confirmations": 19,
+            "cancelations_rate": 50.0
+        },
+        "Gabon": {
+            "total_books": 4,
+            "cancelations": 2,
+            "confirmations": 2,
+            "cancelations_rate": 50.0
+        },
+        "Zimbabwe": {
+            "total_books": 4,
+            "cancelations": 2,
+            "confirmations": 2,
+            "cancelations_rate": 50.0
+        },
+        "Cape Verde": {
+            "total_books": 24,
+            "cancelations": 12,
+            "confirmations": 12,
+            "cancelations_rate": 50.0
         },
         "China": {
             "total_books": 1275,
@@ -16,11 +268,59 @@
             "confirmations": 1021,
             "cancelations_rate": 19.92156862745098
         },
+        "Venezuela": {
+            "total_books": 26,
+            "cancelations": 12,
+            "confirmations": 14,
+            "cancelations_rate": 46.15384615384615
+        },
+        "Morocco": {
+            "total_books": 256,
+            "cancelations": 109,
+            "confirmations": 147,
+            "cancelations_rate": 42.578125
+        },
+        "Singapore": {
+            "total_books": 38,
+            "cancelations": 16,
+            "confirmations": 22,
+            "cancelations_rate": 42.10526315789473
+        },
+        "Korea, Republic of (South)": {
+            "total_books": 133,
+            "cancelations": 55,
+            "confirmations": 78,
+            "cancelations_rate": 41.35338345864661
+        },
+        "Turkey": {
+            "total_books": 248,
+            "cancelations": 102,
+            "confirmations": 146,
+            "cancelations_rate": 41.12903225806452
+        },
+        "Montenegro": {
+            "total_books": 5,
+            "cancelations": 2,
+            "confirmations": 3,
+            "cancelations_rate": 40.0
+        },
+        "South Africa": {
+            "total_books": 80,
+            "cancelations": 31,
+            "confirmations": 49,
+            "cancelations_rate": 38.75
+        },
         "Russia": {
             "total_books": 623,
             "cancelations": 239,
             "confirmations": 384,
             "cancelations_rate": 38.362760834670944
+        },
+        "Luxembourg": {
+            "total_books": 285,
+            "cancelations": 109,
+            "confirmations": 176,
+            "cancelations_rate": 38.24561403508772
         },
         "Brazil": {
             "total_books": 2210,
@@ -28,11 +328,83 @@
             "confirmations": 1381,
             "cancelations_rate": 37.51131221719457
         },
+        "Kuwait": {
+            "total_books": 16,
+            "cancelations": 6,
+            "confirmations": 10,
+            "cancelations_rate": 37.5
+        },
+        "Slovakia": {
+            "total_books": 65,
+            "cancelations": 24,
+            "confirmations": 41,
+            "cancelations_rate": 36.92307692307693
+        },
         "Italy": {
             "total_books": 3749,
             "cancelations": 1332,
             "confirmations": 2417,
             "cancelations_rate": 35.52947452654041
+        },
+        "Egypt": {
+            "total_books": 32,
+            "cancelations": 11,
+            "confirmations": 21,
+            "cancelations_rate": 34.375
+        },
+        "Hungary": {
+            "total_books": 228,
+            "cancelations": 77,
+            "confirmations": 151,
+            "cancelations_rate": 33.771929824561404
+        },
+        "Côte d'Ivoire": {
+            "total_books": 6,
+            "cancelations": 2,
+            "confirmations": 4,
+            "cancelations_rate": 33.33333333333333
+        },
+        "Liechtenstein": {
+            "total_books": 3,
+            "cancelations": 1,
+            "confirmations": 2,
+            "cancelations_rate": 33.33333333333333
+        },
+        "Timor-Leste": {
+            "total_books": 3,
+            "cancelations": 1,
+            "confirmations": 2,
+            "cancelations_rate": 33.33333333333333
+        },
+        "Ethiopia": {
+            "total_books": 3,
+            "cancelations": 1,
+            "confirmations": 2,
+            "cancelations_rate": 33.33333333333333
+        },
+        "Kenya": {
+            "total_books": 6,
+            "cancelations": 2,
+            "confirmations": 4,
+            "cancelations_rate": 33.33333333333333
+        },
+        "Colombia": {
+            "total_books": 71,
+            "cancelations": 23,
+            "confirmations": 48,
+            "cancelations_rate": 32.3943661971831
+        },
+        "Belarus": {
+            "total_books": 25,
+            "cancelations": 8,
+            "confirmations": 17,
+            "cancelations_rate": 32.0
+        },
+        "Thailand": {
+            "total_books": 59,
+            "cancelations": 18,
+            "confirmations": 41,
+            "cancelations_rate": 30.508474576271187
         },
         "Norway": {
             "total_books": 606,
@@ -40,11 +412,77 @@
             "confirmations": 425,
             "cancelations_rate": 29.86798679867987
         },
+        "Ukraine": {
+            "total_books": 67,
+            "cancelations": 20,
+            "confirmations": 47,
+            "cancelations_rate": 29.850746268656714
+        },
+        "Ecuador": {
+            "total_books": 27,
+            "cancelations": 8,
+            "confirmations": 19,
+            "cancelations_rate": 29.629629629629626
+        },
+        "Lebanon": {
+            "total_books": 31,
+            "cancelations": 9,
+            "confirmations": 22,
+            "cancelations_rate": 29.03225806451613
+        },
+        "Mozambique": {
+            "total_books": 66,
+            "cancelations": 19,
+            "confirmations": 47,
+            "cancelations_rate": 28.78787878787879
+        },
+        "Uruguay": {
+            "total_books": 32,
+            "cancelations": 9,
+            "confirmations": 23,
+            "cancelations_rate": 28.125
+        },
+        "Iran": {
+            "total_books": 82,
+            "cancelations": 23,
+            "confirmations": 59,
+            "cancelations_rate": 28.04878048780488
+        },
+        "Malta": {
+            "total_books": 18,
+            "cancelations": 5,
+            "confirmations": 13,
+            "cancelations_rate": 27.77777777777778
+        },
+        "Taiwan": {
+            "total_books": 51,
+            "cancelations": 14,
+            "confirmations": 37,
+            "cancelations_rate": 27.450980392156865
+        },
+        "Greece": {
+            "total_books": 128,
+            "cancelations": 35,
+            "confirmations": 93,
+            "cancelations_rate": 27.34375
+        },
+        "Slovenia": {
+            "total_books": 55,
+            "cancelations": 15,
+            "confirmations": 40,
+            "cancelations_rate": 27.27272727272727
+        },
         "Romania": {
             "total_books": 500,
             "cancelations": 134,
             "confirmations": 366,
             "cancelations_rate": 26.8
+        },
+        "Kazakhstan": {
+            "total_books": 19,
+            "cancelations": 5,
+            "confirmations": 14,
+            "cancelations_rate": 26.31578947368421
         },
         "Spain": {
             "total_books": 8488,
@@ -58,6 +496,48 @@
             "confirmations": 497,
             "cancelations_rate": 25.375375375375377
         },
+        "Australia": {
+            "total_books": 426,
+            "cancelations": 107,
+            "confirmations": 319,
+            "cancelations_rate": 25.11737089201878
+        },
+        "Denmark": {
+            "total_books": 434,
+            "cancelations": 109,
+            "confirmations": 325,
+            "cancelations_rate": 25.115207373271893
+        },
+        "Monaco": {
+            "total_books": 4,
+            "cancelations": 1,
+            "confirmations": 3,
+            "cancelations_rate": 25.0
+        },
+        "Armenia": {
+            "total_books": 8,
+            "cancelations": 2,
+            "confirmations": 6,
+            "cancelations_rate": 25.0
+        },
+        "Viet Nam": {
+            "total_books": 8,
+            "cancelations": 2,
+            "confirmations": 6,
+            "cancelations_rate": 25.0
+        },
+        "Croatia": {
+            "total_books": 100,
+            "cancelations": 25,
+            "confirmations": 75,
+            "cancelations_rate": 25.0
+        },
+        "Argentina": {
+            "total_books": 213,
+            "cancelations": 53,
+            "confirmations": 160,
+            "cancelations_rate": 24.88262910798122
+        },
         "Switzerland": {
             "total_books": 1721,
             "cancelations": 428,
@@ -69,6 +549,12 @@
             "cancelations": 832,
             "confirmations": 2537,
             "cancelations_rate": 24.695755417037695
+        },
+        "Chile": {
+            "total_books": 65,
+            "cancelations": 16,
+            "confirmations": 49,
+            "cancelations_rate": 24.615384615384617
         },
         "United States of America": {
             "total_books": 2085,
@@ -82,11 +568,59 @@
             "confirmations": 696,
             "cancelations_rate": 23.432343234323433
         },
+        "India": {
+            "total_books": 151,
+            "cancelations": 35,
+            "confirmations": 116,
+            "cancelations_rate": 23.178807947019866
+        },
+        "Bosnia and Herzegovina": {
+            "total_books": 13,
+            "cancelations": 3,
+            "confirmations": 10,
+            "cancelations_rate": 23.076923076923077
+        },
         "Sweden": {
             "total_books": 1016,
             "cancelations": 227,
             "confirmations": 789,
             "cancelations_rate": 22.34251968503937
+        },
+        "Oman": {
+            "total_books": 18,
+            "cancelations": 4,
+            "confirmations": 14,
+            "cancelations_rate": 22.22222222222222
+        },
+        "Cyprus": {
+            "total_books": 50,
+            "cancelations": 11,
+            "confirmations": 39,
+            "cancelations_rate": 22.0
+        },
+        "Czech Republic": {
+            "total_books": 170,
+            "cancelations": 37,
+            "confirmations": 133,
+            "cancelations_rate": 21.764705882352942
+        },
+        "Estonia": {
+            "total_books": 83,
+            "cancelations": 18,
+            "confirmations": 65,
+            "cancelations_rate": 21.686746987951807
+        },
+        "Peru": {
+            "total_books": 29,
+            "cancelations": 6,
+            "confirmations": 23,
+            "cancelations_rate": 20.689655172413794
+        },
+        "Algeria": {
+            "total_books": 103,
+            "cancelations": 21,
+            "confirmations": 82,
+            "cancelations_rate": 20.388349514563107
         },
         "United Kingdom": {
             "total_books": 12051,
@@ -99,6 +633,12 @@
             "cancelations": 472,
             "confirmations": 1862,
             "cancelations_rate": 20.22279348757498
+        },
+        "North Macedonia": {
+            "total_books": 10,
+            "cancelations": 2,
+            "confirmations": 8,
+            "cancelations_rate": 20.0
         },
         "France": {
             "total_books": 10359,
@@ -123,6 +663,402 @@
             "cancelations": 1218,
             "confirmations": 6028,
             "cancelations_rate": 16.809274082252276
+        },
+        "Puerto Rico": {
+            "total_books": 12,
+            "cancelations": 2,
+            "confirmations": 10,
+            "cancelations_rate": 16.666666666666664
+        },
+        "Albania": {
+            "total_books": 12,
+            "cancelations": 2,
+            "confirmations": 10,
+            "cancelations_rate": 16.666666666666664
+        },
+        "Latvia": {
+            "total_books": 55,
+            "cancelations": 9,
+            "confirmations": 46,
+            "cancelations_rate": 16.363636363636363
+        },
+        "Bulgaria": {
+            "total_books": 75,
+            "cancelations": 12,
+            "confirmations": 63,
+            "cancelations_rate": 16.0
+        },
+        "Finland": {
+            "total_books": 444,
+            "cancelations": 68,
+            "confirmations": 376,
+            "cancelations_rate": 15.315315315315313
+        },
+        "Jordan": {
+            "total_books": 21,
+            "cancelations": 3,
+            "confirmations": 18,
+            "cancelations_rate": 14.285714285714285
+        },
+        "Mauritius": {
+            "total_books": 7,
+            "cancelations": 1,
+            "confirmations": 6,
+            "cancelations_rate": 14.285714285714285
+        },
+        "Japan": {
+            "total_books": 197,
+            "cancelations": 28,
+            "confirmations": 169,
+            "cancelations_rate": 14.213197969543149
+        },
+        "Mexico": {
+            "total_books": 84,
+            "cancelations": 10,
+            "confirmations": 74,
+            "cancelations_rate": 11.904761904761903
+        },
+        "Guinea-Bissau": {
+            "total_books": 9,
+            "cancelations": 1,
+            "confirmations": 8,
+            "cancelations_rate": 11.11111111111111
+        },
+        "Malaysia": {
+            "total_books": 28,
+            "cancelations": 3,
+            "confirmations": 25,
+            "cancelations_rate": 10.714285714285714
+        },
+        "Lithuania": {
+            "total_books": 81,
+            "cancelations": 7,
+            "confirmations": 74,
+            "cancelations_rate": 8.641975308641975
+        },
+        "New Zealand": {
+            "total_books": 74,
+            "cancelations": 6,
+            "confirmations": 68,
+            "cancelations_rate": 8.108108108108109
+        },
+        "Iceland": {
+            "total_books": 56,
+            "cancelations": 4,
+            "confirmations": 52,
+            "cancelations_rate": 7.142857142857142
+        },
+        "Costa Rica": {
+            "total_books": 19,
+            "cancelations": 1,
+            "confirmations": 18,
+            "cancelations_rate": 5.263157894736842
+        },
+        "Serbia": {
+            "total_books": 100,
+            "cancelations": 3,
+            "confirmations": 97,
+            "cancelations_rate": 3.0
+        },
+        "Anguilla": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Uganda": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Antarctica": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Burundi": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Sudan": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Syria": {
+            "total_books": 3,
+            "cancelations": 0,
+            "confirmations": 3,
+            "cancelations_rate": 0.0
+        },
+        "American Samoa": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Sierra Leone": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "El Salvador": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "San Marino": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Togo": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "São Tomé and Príncipe": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Suriname": {
+            "total_books": 5,
+            "cancelations": 0,
+            "confirmations": 5,
+            "cancelations_rate": 0.0
+        },
+        "French Southern Territories": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Mali": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Rwanda": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Guyana": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Saint Kitts and Nevis": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Kiribati": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Botswana": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Central African Republic": {
+            "total_books": 5,
+            "cancelations": 0,
+            "confirmations": 5,
+            "cancelations_rate": 0.0
+        },
+        "Jamaica": {
+            "total_books": 6,
+            "cancelations": 0,
+            "confirmations": 6,
+            "cancelations_rate": 0.0
+        },
+        "Iraq": {
+            "total_books": 14,
+            "cancelations": 0,
+            "confirmations": 14,
+            "cancelations_rate": 0.0
+        },
+        "Guatemala": {
+            "total_books": 4,
+            "cancelations": 0,
+            "confirmations": 4,
+            "cancelations_rate": 0.0
+        },
+        "Libya": {
+            "total_books": 8,
+            "cancelations": 0,
+            "confirmations": 8,
+            "cancelations_rate": 0.0
+        },
+        "Cameroon": {
+            "total_books": 9,
+            "cancelations": 0,
+            "confirmations": 9,
+            "cancelations_rate": 0.0
+        },
+        "Comoros": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Cuba": {
+            "total_books": 8,
+            "cancelations": 0,
+            "confirmations": 8,
+            "cancelations_rate": 0.0
+        },
+        "Cayman Islands": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Dominica": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Djibouti": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Laos": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Saint Lucia": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "French Polynesia": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "New Caledonia": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Paraguay": {
+            "total_books": 4,
+            "cancelations": 0,
+            "confirmations": 4,
+            "cancelations_rate": 0.0
+        },
+        "Burkina Faso": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Palau": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Panama": {
+            "total_books": 9,
+            "cancelations": 0,
+            "confirmations": 9,
+            "cancelations_rate": 0.0
+        },
+        "Bahamas": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Nepal": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Namibia": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Sri Lanka": {
+            "total_books": 7,
+            "cancelations": 0,
+            "confirmations": 7,
+            "cancelations_rate": 0.0
+        },
+        "Bolivia": {
+            "total_books": 9,
+            "cancelations": 0,
+            "confirmations": 9,
+            "cancelations_rate": 0.0
+        },
+        "Malawi": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
+        },
+        "Mauritania": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Myanmar": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Madagascar": {
+            "total_books": 1,
+            "cancelations": 0,
+            "confirmations": 1,
+            "cancelations_rate": 0.0
+        },
+        "Barbados": {
+            "total_books": 4,
+            "cancelations": 0,
+            "confirmations": 4,
+            "cancelations_rate": 0.0
+        },
+        "Aruba": {
+            "total_books": 2,
+            "cancelations": 0,
+            "confirmations": 2,
+            "cancelations_rate": 0.0
         }
     }
 }
