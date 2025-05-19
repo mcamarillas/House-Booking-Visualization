@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
+const REFRESH_DATA = false;
 export default function CSVDataLoader({storageKey, onDataLoaded}) {
   const [data, setData] = useState(null);
 
@@ -15,7 +16,7 @@ export default function CSVDataLoader({storageKey, onDataLoaded}) {
 function loadJSON(storageKey, setData, onDataLoaded) {
   const storedData = localStorage.getItem(storageKey);
 
-  if (storedData) {
+  if (storedData && !REFRESH_DATA) {
     const parsedData = JSON.parse(storedData);
     setData(parsedData);
     onDataLoaded(parsedData);
