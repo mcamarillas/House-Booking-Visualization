@@ -1,0 +1,230 @@
+{
+    "chart1": {
+        "confirmations": 71381,
+        "cancelations": 43169
+    },
+    "chart2": {
+        "Portugal": {
+            "total_books": 47020,
+            "cancelations": 27326,
+            "confirmations": 19694,
+            "cancelations_rate": 58.11569544874522
+        },
+        "Angola": {
+            "total_books": 355,
+            "cancelations": 205,
+            "confirmations": 150,
+            "cancelations_rate": 57.74647887323944
+        },
+        "China": {
+            "total_books": 1275,
+            "cancelations": 254,
+            "confirmations": 1021,
+            "cancelations_rate": 19.92156862745098
+        },
+        "Morocco": {
+            "total_books": 256,
+            "cancelations": 109,
+            "confirmations": 147,
+            "cancelations_rate": 42.578125
+        },
+        "Korea, Republic of (South)": {
+            "total_books": 133,
+            "cancelations": 55,
+            "confirmations": 78,
+            "cancelations_rate": 41.35338345864661
+        },
+        "Turkey": {
+            "total_books": 248,
+            "cancelations": 102,
+            "confirmations": 146,
+            "cancelations_rate": 41.12903225806452
+        },
+        "Russia": {
+            "total_books": 623,
+            "cancelations": 239,
+            "confirmations": 384,
+            "cancelations_rate": 38.362760834670944
+        },
+        "Luxembourg": {
+            "total_books": 285,
+            "cancelations": 109,
+            "confirmations": 176,
+            "cancelations_rate": 38.24561403508772
+        },
+        "Brazil": {
+            "total_books": 2210,
+            "cancelations": 829,
+            "confirmations": 1381,
+            "cancelations_rate": 37.51131221719457
+        },
+        "Italy": {
+            "total_books": 3749,
+            "cancelations": 1332,
+            "confirmations": 2417,
+            "cancelations_rate": 35.52947452654041
+        },
+        "Hungary": {
+            "total_books": 228,
+            "cancelations": 77,
+            "confirmations": 151,
+            "cancelations_rate": 33.771929824561404
+        },
+        "Norway": {
+            "total_books": 606,
+            "cancelations": 181,
+            "confirmations": 425,
+            "cancelations_rate": 29.86798679867987
+        },
+        "Greece": {
+            "total_books": 128,
+            "cancelations": 35,
+            "confirmations": 93,
+            "cancelations_rate": 27.34375
+        },
+        "Romania": {
+            "total_books": 500,
+            "cancelations": 134,
+            "confirmations": 366,
+            "cancelations_rate": 26.8
+        },
+        "Spain": {
+            "total_books": 8488,
+            "cancelations": 2176,
+            "confirmations": 6312,
+            "cancelations_rate": 25.636192271442038
+        },
+        "Israel": {
+            "total_books": 666,
+            "cancelations": 169,
+            "confirmations": 497,
+            "cancelations_rate": 25.375375375375377
+        },
+        "Australia": {
+            "total_books": 426,
+            "cancelations": 107,
+            "confirmations": 319,
+            "cancelations_rate": 25.11737089201878
+        },
+        "Denmark": {
+            "total_books": 434,
+            "cancelations": 109,
+            "confirmations": 325,
+            "cancelations_rate": 25.115207373271893
+        },
+        "Croatia": {
+            "total_books": 100,
+            "cancelations": 25,
+            "confirmations": 75,
+            "cancelations_rate": 25.0
+        },
+        "Argentina": {
+            "total_books": 213,
+            "cancelations": 53,
+            "confirmations": 160,
+            "cancelations_rate": 24.88262910798122
+        },
+        "Switzerland": {
+            "total_books": 1721,
+            "cancelations": 428,
+            "confirmations": 1293,
+            "cancelations_rate": 24.869262056943636
+        },
+        "Ireland": {
+            "total_books": 3369,
+            "cancelations": 832,
+            "confirmations": 2537,
+            "cancelations_rate": 24.695755417037695
+        },
+        "United States of America": {
+            "total_books": 2085,
+            "cancelations": 500,
+            "confirmations": 1585,
+            "cancelations_rate": 23.980815347721823
+        },
+        "Poland": {
+            "total_books": 909,
+            "cancelations": 213,
+            "confirmations": 696,
+            "cancelations_rate": 23.432343234323433
+        },
+        "India": {
+            "total_books": 151,
+            "cancelations": 35,
+            "confirmations": 116,
+            "cancelations_rate": 23.178807947019866
+        },
+        "Sweden": {
+            "total_books": 1016,
+            "cancelations": 227,
+            "confirmations": 789,
+            "cancelations_rate": 22.34251968503937
+        },
+        "Czech Republic": {
+            "total_books": 170,
+            "cancelations": 37,
+            "confirmations": 133,
+            "cancelations_rate": 21.764705882352942
+        },
+        "Algeria": {
+            "total_books": 103,
+            "cancelations": 21,
+            "confirmations": 82,
+            "cancelations_rate": 20.388349514563107
+        },
+        "United Kingdom": {
+            "total_books": 12051,
+            "cancelations": 2451,
+            "confirmations": 9600,
+            "cancelations_rate": 20.338561115260145
+        },
+        "Belgium": {
+            "total_books": 2334,
+            "cancelations": 472,
+            "confirmations": 1862,
+            "cancelations_rate": 20.22279348757498
+        },
+        "France": {
+            "total_books": 10359,
+            "cancelations": 1932,
+            "confirmations": 8427,
+            "cancelations_rate": 18.65044888502751
+        },
+        "Netherlands": {
+            "total_books": 2099,
+            "cancelations": 387,
+            "confirmations": 1712,
+            "cancelations_rate": 18.437351119580754
+        },
+        "Austria": {
+            "total_books": 1256,
+            "cancelations": 229,
+            "confirmations": 1027,
+            "cancelations_rate": 18.23248407643312
+        },
+        "Germany": {
+            "total_books": 7246,
+            "cancelations": 1218,
+            "confirmations": 6028,
+            "cancelations_rate": 16.809274082252276
+        },
+        "Finland": {
+            "total_books": 444,
+            "cancelations": 68,
+            "confirmations": 376,
+            "cancelations_rate": 15.315315315315313
+        },
+        "Japan": {
+            "total_books": 197,
+            "cancelations": 28,
+            "confirmations": 169,
+            "cancelations_rate": 14.213197969543149
+        },
+        "Serbia": {
+            "total_books": 100,
+            "cancelations": 3,
+            "confirmations": 97,
+            "cancelations_rate": 3.0
+        }
+    }
+}
