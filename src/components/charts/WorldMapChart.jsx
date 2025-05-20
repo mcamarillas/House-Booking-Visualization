@@ -35,11 +35,23 @@ export default function WorldMapChart({ data }) {
           })
           .attr("stroke", "#333")
           .attr("stroke-width", 0.5)
-          .on("mouseover", (event, d) => onMouseOver(event, d, data, setTooltipData, setTooltipPosition))
+          .on("mouseover", function  (event, d) {
+            const name = d.properties.name;
+            const chartData = data?.chart2?.[name];
+            const value = chartData?.cancelations_rate;
+            if (value !== undefined) {
+              d3.select(this).attr("fill", "#ffff00");
+              onMouseOver(event, d, data, setTooltipData, setTooltipPosition)
+            }
+          })
           .on("mousemove", function (event) {
             setTooltipPosition({ x: event.pageX + 10, y: event.pageY - 70 });
           })
-          .on("mouseout", function () {
+          .on("mouseout", function (_, d) {
+            const name = d.properties.name;
+            const entry = data?.chart2?.[name];
+            const value = entry?.cancelations_rate;
+            d3.select(this).attr("fill", getColorScale(value));  
             setTooltipData(null);
           });
       });
@@ -65,7 +77,7 @@ export default function WorldMapChart({ data }) {
         >
           <strong>{tooltipData.name}</strong>
           <br />
-          Cancelations Rate: {tooltipData.value.toFixed(2)}%
+          Reserves Totals: {tooltipData.totalBooks}
           <CancelationPieChart data={tooltipData.chartData} title={false} info={true} />
         </div>
       )}
@@ -84,15 +96,14 @@ function getColorScale(value) {
 }
 
 function onMouseOver(event, d, data, setTooltipData, setTooltipPosition) {
-  d3.select(this).attr("fill", "#ffffff");
   const name = d.properties.name;
   const chartData = data?.chart2?.[name];
-  const value = chartData?.cancelations_rate;
+  const totalBooks = chartData?.total_books;
 
-  if (value !== undefined) {
+  if (totalBooks !== undefined) {
     setTooltipData({
       name,
-      value,
+      totalBooks,
       chartData
     });
     setTooltipPosition({ x: event.pageX + 10, y: event.pageY - 300 });

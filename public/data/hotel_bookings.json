@@ -226,5 +226,49 @@
             "confirmations": 97,
             "cancelations_rate": 3.0
         }
+    },
+    "chart3": {
+        "7.0": {
+            "total_books": 24233.0,
+            "cancelations": 13911.0,
+            "confirmations": 10322.0,
+            "cancelations_rate": 57.40519126810547
+        },
+        "6.0": {
+            "total_books": 7731.0,
+            "cancelations": 3562.0,
+            "confirmations": 4169.0,
+            "cancelations_rate": 46.07424653990428
+        },
+        "5.0": {
+            "total_books": 7950.0,
+            "cancelations": 3523.0,
+            "confirmations": 4427.0,
+            "cancelations_rate": 44.314465408805034
+        },
+        "4.0": {
+            "total_books": 10137.0,
+            "cancelations": 4575.0,
+            "confirmations": 5562.0,
+            "cancelations_rate": 45.13169576797869
+        },
+        "3.0": {
+            "total_books": 12239.0,
+            "cancelations": 4865.0,
+            "confirmations": 7374.0,
+            "cancelations_rate": 39.749979573494564
+        },
+        "2.0": {
+            "total_books": 16397.0,
+            "cancelations": 5987.0,
+            "confirmations": 10410.0,
+            "cancelations_rate": 36.51277672745014
+        },
+        "1.0": {
+            "total_books": 35863.0,
+            "cancelations": 6746.0,
+            "confirmations": 29117.0,
+            "cancelations_rate": 18.810473189638348
+        }
     }
 }

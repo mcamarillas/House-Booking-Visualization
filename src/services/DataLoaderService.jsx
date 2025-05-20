@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 
 const REFRESH_DATA = true;
+const DEV = true;
 export default function CSVDataLoader({storageKey, onDataLoaded}) {
   const [data, setData] = useState(null);
 
@@ -24,7 +25,7 @@ function loadJSON(storageKey, setData, onDataLoaded) {
     let jsonPath;
     switch (storageKey) {
       case 'bookingData':
-        jsonPath = '/data/hotel_bookings.json';
+        jsonPath = (DEV ? '' : '/House-Booking-Visualization') + '/data/hotel_bookings.json';
         break;
       default:
         console.error(`Error: No hi ha fitxer per a la clau: ${storageKey}`);

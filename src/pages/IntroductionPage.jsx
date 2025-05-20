@@ -1,6 +1,8 @@
 import React from "react";
 import CancelationPieChart from "../components/charts/CancelationPieChart";
 import WorldMapChart from "../components/charts/WorldMapChart";
+import MosaicChart from "../components/charts/MosaicChart";
+
 import '../styles/IntroductionPage.css'
 
 export default function IntroductionPage({ data }) {
@@ -33,9 +35,24 @@ export default function IntroductionPage({ data }) {
             <div className="world-map-chart">
                 <WorldMapChart data={data}/>
             </div>
-            <div className="base-container">
-                <h1>HOLAAAAA</h1>
+            <div className="exploration-description"> 
+                <h2>
+                    Aqui tenim els insights
+                </h2>
             </div>
+                <div className="intro-container">
+                    <div className="chart-container-2">
+                        <MosaicChart data={data['chart3']}/>
+                    </div>
+                    <div className="chart-container-2">
+                        <MosaicChart data={data['chart3']}/>
+                    </div>
+                    <div className="chart-container-2">
+                        <MosaicChart data={data['chart3']}/>
+                    </div>
+                </div>
+                <div className="footer">
+                </div>
         </div>
 
     );
