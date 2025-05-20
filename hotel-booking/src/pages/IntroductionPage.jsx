@@ -16,7 +16,7 @@ export default function IntroductionPage({ data }) {
             </h3>
             <div className="intro-container">
                 <div className="chart-box">
-                    {<CancelationPieChart data={data} />}
+                    {<CancelationPieChart data={data['chart1']} title={true}/>}
                 </div>
                 <div className="chart-description"> 
                     <h2>
@@ -25,8 +25,16 @@ export default function IntroductionPage({ data }) {
                     </h2>
                 </div>
             </div>
+            <div className="exploration-description"> 
+                <h2>
+                    Anem a explorar les dades dels diferents païssos amb més de 100 reserves per veure poder identificar-ho
+                </h2>
+            </div>
             <div className="world-map-chart">
                 <WorldMapChart data={data}/>
+            </div>
+            <div className="base-container">
+                <h1>HOLAAAAA</h1>
             </div>
         </div>
 
