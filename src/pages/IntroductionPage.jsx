@@ -2,14 +2,16 @@ import React from "react";
 import CancelationPieChart from "../components/charts/CancelationPieChart";
 import WorldMapChart from "../components/charts/WorldMapChart";
 import MosaicChart from "../components/charts/MosaicChart";
+import BarChart from "../components/charts/BarChart";
 
 import '../styles/IntroductionPage.css'
+import OrderChart from "../components/charts/OrderChart";
 
 export default function IntroductionPage({ data }) {
     return (
         <div className="base-container">
             <header className="main-header">
-                <img src='/assets/logo-white.png' heigh='50px' width='50px'></img>
+                <img src='/House-Booking-Visualization/assets/logo-white.png' heigh='50px' width='50px'></img>
                 <h2>PAC3: Storytelling</h2>
             </header>
             <h3>
@@ -42,10 +44,13 @@ export default function IntroductionPage({ data }) {
             </div>
                 <div className="intro-container">
                     <div className="chart-container-2">
-                        <MosaicChart data={data['chart3']}/>
+                        <OrderChart data={data['chart5']}/>
                     </div>
                     <div className="chart-container-2">
-                        <MosaicChart data={data['chart3']}/>
+                        <BarChart data={data['chart4']}/>
+                    </div>
+                    <div className="chart-container-2">
+                        <BarChart data={data['chart4']}/>
                     </div>
                     <div className="chart-container-2">
                         <MosaicChart data={data['chart3']}/>

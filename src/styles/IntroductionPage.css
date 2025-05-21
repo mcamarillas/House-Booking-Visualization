@@ -104,3 +104,31 @@
     padding: 1.5rem;
     background-color: #242424;
 }
+
+ol {
+  counter-reset: list-counter;
+  list-style: none;
+  padding-left: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 400px;
+  margin: 0px 2rem;
+}
+
+li {
+  position: relative;
+  margin: 7px 0;
+  padding-left: 32px;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
+}
+
+li::before {
+  counter-increment: list-counter;
+  content: counter(list-counter) ".";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: white;
+  font-weight: bold;
+}

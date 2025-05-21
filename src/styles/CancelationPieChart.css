@@ -20,7 +20,8 @@
 }
 
 .chart-container-2 {
-  max-width: 600px;
+  width: 600px;
+  height: 350px;
   margin: 2rem auto;
   padding: 1rem;
   background: #484848;

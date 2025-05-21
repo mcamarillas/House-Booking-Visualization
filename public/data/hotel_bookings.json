@@ -3,6 +3,16 @@
         "confirmations": 71381,
         "cancelations": 43169
     },
+    "chart5": [
+        "Portugal-58.12%",
+        "Angola-57.75%",
+        "Morocco-42.58%",
+        "South Korea-41.35%",
+        "Turkey-41.13%",
+        "Russia-38.36%",
+        "Luxembourg-38.25%",
+        "Brazil-37.51%"
+    ],
     "chart2": {
         "Portugal": {
             "total_books": 47020,
@@ -16,19 +26,13 @@
             "confirmations": 150,
             "cancelations_rate": 57.74647887323944
         },
-        "China": {
-            "total_books": 1275,
-            "cancelations": 254,
-            "confirmations": 1021,
-            "cancelations_rate": 19.92156862745098
-        },
         "Morocco": {
             "total_books": 256,
             "cancelations": 109,
             "confirmations": 147,
             "cancelations_rate": 42.578125
         },
-        "Korea, Republic of (South)": {
+        "South Korea": {
             "total_books": 133,
             "cancelations": 55,
             "confirmations": 78,
@@ -69,6 +73,12 @@
             "cancelations": 77,
             "confirmations": 151,
             "cancelations_rate": 33.771929824561404
+        },
+        "China": {
+            "total_books": 2272,
+            "cancelations": 716,
+            "confirmations": 1556,
+            "cancelations_rate": 31.514084507042256
         },
         "Norway": {
             "total_books": 606,
@@ -269,6 +279,138 @@
             "cancelations": 6746.0,
             "confirmations": 29117.0,
             "cancelations_rate": 18.810473189638348
+        }
+    },
+    "chart4": {
+        "DEU": {
+            "Familia": {
+                "total_books": 364,
+                "cancelations": 92,
+                "confirmations": 272,
+                "cancelations_rate": 25.274725274725274
+            },
+            "Grups": {
+                "total_books": 407,
+                "cancelations": 96,
+                "confirmations": 311,
+                "cancelations_rate": 23.587223587223587
+            },
+            "Parella": {
+                "total_books": 5276,
+                "cancelations": 913,
+                "confirmations": 4363,
+                "cancelations_rate": 17.30477634571645
+            },
+            "Una Persona": {
+                "total_books": 1199,
+                "cancelations": 117,
+                "confirmations": 1082,
+                "cancelations_rate": 9.7581317764804
+            }
+        },
+        "ESP": {
+            "Familia": {
+                "total_books": 1084,
+                "cancelations": 349,
+                "confirmations": 735,
+                "cancelations_rate": 32.19557195571956
+            },
+            "Grups": {
+                "total_books": 550,
+                "cancelations": 179,
+                "confirmations": 371,
+                "cancelations_rate": 32.54545454545455
+            },
+            "Parella": {
+                "total_books": 5814,
+                "cancelations": 1518,
+                "confirmations": 4296,
+                "cancelations_rate": 26.109391124871
+            },
+            "Una Persona": {
+                "total_books": 1040,
+                "cancelations": 130,
+                "confirmations": 910,
+                "cancelations_rate": 12.5
+            }
+        },
+        "FRA": {
+            "Familia": {
+                "total_books": 918,
+                "cancelations": 235,
+                "confirmations": 683,
+                "cancelations_rate": 25.59912854030501
+            },
+            "Grups": {
+                "total_books": 723,
+                "cancelations": 221,
+                "confirmations": 502,
+                "cancelations_rate": 30.567081604426004
+            },
+            "Parella": {
+                "total_books": 7569,
+                "cancelations": 1333,
+                "confirmations": 6236,
+                "cancelations_rate": 17.611309287884794
+            },
+            "Una Persona": {
+                "total_books": 1149,
+                "cancelations": 143,
+                "confirmations": 1006,
+                "cancelations_rate": 12.445604873803308
+            }
+        },
+        "GBR": {
+            "Familia": {
+                "total_books": 907,
+                "cancelations": 304,
+                "confirmations": 603,
+                "cancelations_rate": 33.51708930540242
+            },
+            "Grups": {
+                "total_books": 597,
+                "cancelations": 164,
+                "confirmations": 433,
+                "cancelations_rate": 27.470686767169177
+            },
+            "Parella": {
+                "total_books": 8977,
+                "cancelations": 1749,
+                "confirmations": 7228,
+                "cancelations_rate": 19.483123537930265
+            },
+            "Una Persona": {
+                "total_books": 1570,
+                "cancelations": 234,
+                "confirmations": 1336,
+                "cancelations_rate": 14.904458598726114
+            }
+        },
+        "PRT": {
+            "Familia": {
+                "total_books": 2678,
+                "cancelations": 1064,
+                "confirmations": 1614,
+                "cancelations_rate": 39.731142643764
+            },
+            "Grups": {
+                "total_books": 1087,
+                "cancelations": 398,
+                "confirmations": 689,
+                "cancelations_rate": 36.61453541858325
+            },
+            "Parella": {
+                "total_books": 31597,
+                "cancelations": 20914,
+                "confirmations": 10683,
+                "cancelations_rate": 66.18982814824193
+            },
+            "Una Persona": {
+                "total_books": 11658,
+                "cancelations": 4950,
+                "confirmations": 6708,
+                "cancelations_rate": 42.4601132269686
+            }
         }
     }
 }
