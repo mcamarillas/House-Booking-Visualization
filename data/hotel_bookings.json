@@ -412,5 +412,107 @@
                 "cancelations_rate": 42.4601132269686
             }
         }
+    },
+    "chart6": {
+        "DEU": {
+            "Preu Baix": {
+                "total_books": 951,
+                "cancelations": 46,
+                "confirmations": 905,
+                "cancelations_rate": 4.837013669821241
+            },
+            "Preu Mig": {
+                "total_books": 4796,
+                "cancelations": 702,
+                "confirmations": 4094,
+                "cancelations_rate": 14.637197664720599
+            },
+            "Preu Alt": {
+                "total_books": 1499,
+                "cancelations": 470,
+                "confirmations": 1029,
+                "cancelations_rate": 31.354236157438294
+            }
+        },
+        "ESP": {
+            "Preu Baix": {
+                "total_books": 1825,
+                "cancelations": 135,
+                "confirmations": 1690,
+                "cancelations_rate": 7.397260273972603
+            },
+            "Preu Mig": {
+                "total_books": 3569,
+                "cancelations": 981,
+                "confirmations": 2588,
+                "cancelations_rate": 27.486690949845894
+            },
+            "Preu Alt": {
+                "total_books": 3094,
+                "cancelations": 1060,
+                "confirmations": 2034,
+                "cancelations_rate": 34.25985778926955
+            }
+        },
+        "FRA": {
+            "Preu Baix": {
+                "total_books": 1508,
+                "cancelations": 75,
+                "confirmations": 1433,
+                "cancelations_rate": 4.973474801061008
+            },
+            "Preu Mig": {
+                "total_books": 5783,
+                "cancelations": 1034,
+                "confirmations": 4749,
+                "cancelations_rate": 17.87999308317482
+            },
+            "Preu Alt": {
+                "total_books": 3068,
+                "cancelations": 823,
+                "confirmations": 2245,
+                "cancelations_rate": 26.82529335071708
+            }
+        },
+        "GBR": {
+            "Preu Baix": {
+                "total_books": 3955,
+                "cancelations": 349,
+                "confirmations": 3606,
+                "cancelations_rate": 8.824273072060683
+            },
+            "Preu Mig": {
+                "total_books": 5471,
+                "cancelations": 1175,
+                "confirmations": 4296,
+                "cancelations_rate": 21.476878084445257
+            },
+            "Preu Alt": {
+                "total_books": 2625,
+                "cancelations": 927,
+                "confirmations": 1698,
+                "cancelations_rate": 35.31428571428572
+            }
+        },
+        "PRT": {
+            "Preu Baix": {
+                "total_books": 16198,
+                "cancelations": 9088,
+                "confirmations": 7110,
+                "cancelations_rate": 56.10569206074823
+            },
+            "Preu Mig": {
+                "total_books": 22077,
+                "cancelations": 13834,
+                "confirmations": 8243,
+                "cancelations_rate": 62.66249943379988
+            },
+            "Preu Alt": {
+                "total_books": 8745,
+                "cancelations": 4404,
+                "confirmations": 4341,
+                "cancelations_rate": 50.36020583190395
+            }
+        }
     }
 }
