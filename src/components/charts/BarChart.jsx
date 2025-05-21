@@ -1,22 +1,21 @@
 import React, { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
 
-const BarChart = ({ data }) => {
+const BarChart = ({ data, title }) => {
   const svgRef = useRef();
   const [tooltipData, setTooltipData] = useState(null);
   const [tooltipPosition, setTooltipPosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
-    // Preparar datos para la gráfica
     const chartData = [];
-    for (const country in data) {
-      if (data.hasOwnProperty(country)) {
-        const groups = data[country];
+    for (const currentD in data) {
+      if (data.hasOwnProperty(currentD)) {
+        const groups = data[currentD];
         for (const groupType in groups) {
           if (groups.hasOwnProperty(groupType)) {
             chartData.push({
               category: groupType,
-              pais: country,
+              pais: currentD,
               ratio: groups[groupType].cancelations_rate,
             });
           }
@@ -39,10 +38,9 @@ const BarChart = ({ data }) => {
 
     const width = 600;
     const height = 400;
-    const margin = { top: 70, right: 150, bottom: 70, left: 60 };
+    const margin = { top: 70, right: 150, bottom: 75, left: 60 };
 
-    // Categorías definidas acorde a los datos
-    const categories = ["Familia", "Parella", "Grups", "Una Persona"];
+    const categories = Object.keys(data[Object.keys(data)[0]]);
     const paises = Array.from(new Set(chartData.map((d) => d.pais)));
 
     const x0 = d3
@@ -65,7 +63,7 @@ const BarChart = ({ data }) => {
 
     const color = d3.scaleOrdinal().domain(paises).range(pastelColors);
 
-    // Ejes
+    // Eje X
     const xAxisG = svg
       .append("g")
       .attr("transform", `translate(0,${height - margin.bottom + 2})`)
@@ -75,6 +73,7 @@ const BarChart = ({ data }) => {
     xAxisG.selectAll("line").attr("stroke", "white");
     xAxisG.select("path").attr("stroke", "white");
 
+    // Eje Y
     const yAxisG = svg
       .append("g")
       .attr("transform", `translate(${margin.left},0)`)
@@ -84,7 +83,18 @@ const BarChart = ({ data }) => {
     yAxisG.selectAll("line").attr("stroke", "white");
     yAxisG.select("path").attr("stroke", "white");
 
-    // Grupos para cada categoría
+    // Título del eje Y
+    svg
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("x", -(height / 2))
+      .attr("y", 20)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "14px")
+      .attr("fill", "white")
+      .text("Percentatge de Cancel·lacions (%)");
+
+    // Grupos por categoría
     const group = svg
       .selectAll("g.barra")
       .data(categories)
@@ -92,7 +102,7 @@ const BarChart = ({ data }) => {
       .append("g")
       .attr("transform", (d) => `translate(${x0(d)},0)`);
 
-    // Barras por país dentro de cada grupo
+    // Barras por país dentro de cada categoría
     group
       .selectAll("rect")
       .data((cat) => chartData.filter((d) => d.category === cat))
@@ -104,27 +114,38 @@ const BarChart = ({ data }) => {
       .attr("height", (d) => y(0) - y(d.ratio))
       .attr("fill", (d) => color(d.pais))
       .on("mouseover", (event, d) => {
+        const [x, yPos] = d3.pointer(event);
+        const svgRect = svgRef.current.getBoundingClientRect();
         setTooltipData(d);
-        setTooltipPosition({ x: event.clientX + 10, y: event.clientY - 70 });
+        setTooltipPosition({
+          x: svgRect.left + x + 10,
+          y: svgRect.top + yPos - 40,
+        });
       })
       .on("mousemove", (event) => {
-        setTooltipPosition({ x: event.clientX + 10, y: event.clientY - 70 });
+        const [x, yPos] = d3.pointer(event);
+        const svgRect = svgRef.current.getBoundingClientRect();
+        setTooltipPosition({
+          x: svgRect.left + x + 10,
+          y: svgRect.top + yPos - 40,
+        });
       })
       .on("mouseout", () => {
         setTooltipData(null);
       });
 
-    // Título
+    // Título del gráfico
     svg
       .append("text")
       .attr("x", width / 2)
       .attr("y", 30)
       .attr("text-anchor", "middle")
-      .attr("font-size", "18px")
+      .attr("font-size", 24)
+      .attr("font-weight", "bold")
       .attr("fill", "white")
-      .text("Ratio de Cancelación por Categoría y País");
+      .text(title);
 
-    // Leyenda vertical a la derecha
+    // Leyenda
     const legend = svg.append("g").attr(
       "transform",
       `translate(${width - margin.right + 20}, ${margin.top + 80})`

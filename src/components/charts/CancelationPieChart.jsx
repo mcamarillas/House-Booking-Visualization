@@ -25,11 +25,12 @@ export default function CancelationPieChart({ data, title = false, info = false 
   const layoutData = {
     title: title
       ? {
-          text: 'Percentatge de reserves cancel·lades',
+          text: 'Reserves Confirmades vs Cancel·lades',
           font: {
             size: 26,
             color: '#fff',
             family: 'Segoe UI, sans-serif',
+            weight: 'bold',
           },
           x: 0.5,
           xanchor: 'center',

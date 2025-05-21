@@ -40,7 +40,7 @@ export default function WorldMapChart({ data }) {
             const chartData = data?.chart2?.[name];
             const value = chartData?.cancelations_rate;
             if (value !== undefined) {
-              d3.select(this).attr("fill", "#ffff00");
+              d3.select(this).attr("fill", "#ffffba");
               onMouseOver(event, d, data, setTooltipData, setTooltipPosition)
             }
           })

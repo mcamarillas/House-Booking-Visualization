@@ -15,7 +15,7 @@ export default function IntroductionPage({ data }) {
                 <h2>PAC3: Storytelling</h2>
             </header>
             <h3>
-                Visualització de Dades - UOC Curs 2024-2025 <br></br>
+                Visualització de Dades · UOC · Curs 2024-2025 <br></br>
                 Marc Camarillas Parés
             </h3>
             <div className="intro-container">
@@ -24,14 +24,15 @@ export default function IntroductionPage({ data }) {
                 </div>
                 <div className="chart-description"> 
                     <h2>
-                        El 37% de les reserves que es fan al nostre país acaben cancelades. <br></br> <br></br>
-                        Quins son els principals motius?
+                        Sabies que el 37% de les reserves s'acaben cancel·lant? <br /><br />
+                        Entenem per què passa això.
                     </h2>
                 </div>
             </div>
             <div className="exploration-description"> 
                 <h2>
-                    Anem a explorar les dades dels diferents païssos amb més de 100 reserves per veure poder identificar-ho
+                    Explorem què passa arreu del món. <br />
+                    Ens centrem en països amb més de 100 reserves per entendre millor el fenomen.
                 </h2>
             </div>
             <div className="world-map-chart">
@@ -39,25 +40,41 @@ export default function IntroductionPage({ data }) {
             </div>
             <div className="exploration-description"> 
                 <h2>
-                    Aqui tenim els insights
+                    Què ens diuen les dades? <br />
+                    Aprofundim en els patrons i comportaments.
                 </h2>
             </div>
-                <div className="intro-container">
-                    <div className="chart-container-2">
-                        <OrderChart data={data['chart5']}/>
-                    </div>
-                    <div className="chart-container-2">
-                        <BarChart data={data['chart4']}/>
-                    </div>
-                    <div className="chart-container-2">
-                        <BarChart data={data['chart4']}/>
-                    </div>
-                    <div className="chart-container-2">
-                        <MosaicChart data={data['chart3']}/>
-                    </div>
+            <div className="intro-container">
+                <div className="chart-container-2">
+                    <OrderChart data={data['chart5']}/>
                 </div>
-                <div className="footer">
+                <div className="chart-container-2">
+                    <BarChart data={data['chart4']} title={"Cancel·lacions en funció del grup i el país"}/>
                 </div>
+                <div className="chart-container-2">
+                    <BarChart data={data['chart6']} title={"Cancel·lacions en funció del preu i el país"}/>
+                </div>
+                <div className="chart-container-2">
+                    <MosaicChart data={data['chart3']}/>
+                </div>
+            </div>
+            <div className="exploration-description">
+                <h2> Conclusions </h2>
+            </div>
+                            <h3>
+                    Al llarg d’aquesta exploració hem descobert que les cancel·lacions de reserves no són un fenomen aleatori. 
+                    Factors com el país d’origen, el tipus de viatger o el preu de la reserva hi juguen un paper clau.
+                    <br /><br />
+                    Països amb taxes molt altes, patrons diferents segons si viatges sol o en família, i una relació directa amb el cost: 
+                    tot plegat ens mostra que darrere cada cancel·lació hi ha context, comportaments i decisions.
+                    <br /><br />
+                    Entendre aquestes dades ens permet no només analitzar el passat, sinó també anticipar el futur: 
+                    optimitzar la gestió d’allotjaments, personalitzar ofertes i, sobretot, millorar l’experiència dels usuaris.
+                    <br /><br />
+                    Les dades parlen. Només cal saber escoltar-les.
+                </h3>
+            <div className="footer">
+            </div>
         </div>
 
     );

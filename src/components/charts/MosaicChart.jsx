@@ -23,7 +23,6 @@ const MosaicChart = ({ data }) => {
           width: 40 + Math.floor(value.total_books / 1000),
         }));
 
-    // 🎨 Colors suaus (pastel)
     const pastelColors = [
       "#FFB3BA",
       "#FFDFBA",
@@ -71,7 +70,8 @@ const MosaicChart = ({ data }) => {
       .attr("x", fullWidth / 3 + 20)
       .attr("y", margin.top / 2)
       .attr("text-anchor", "middle")
-      .attr("font-size", 16)
+      .attr("font-size", 22)
+      .attr("font-weight", "bold")
       .attr("fill", "white")
       .text("Distribució de Cancelacions i Confirmacions per Mes");
 
@@ -131,7 +131,7 @@ const MosaicChart = ({ data }) => {
       .attr("text-anchor", "middle")
       .attr("font-size", 12)
       .attr("fill", "white")
-      .text("Mesos d’antelació");
+      .text("Mesos d’antel·lació");
 
     /**
      * 5️⃣ Dibuixem les barres + mouse events per al tooltip
