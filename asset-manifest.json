@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/House-Booking-Visualization/static/css/main.f74bdadf.css",
-    "main.js": "/House-Booking-Visualization/static/js/main.d7704e69.js",
+    "main.css": "/House-Booking-Visualization/static/css/main.e676f358.css",
+    "main.js": "/House-Booking-Visualization/static/js/main.d24ad36b.js",
     "static/js/453.96a6fddc.chunk.js": "/House-Booking-Visualization/static/js/453.96a6fddc.chunk.js",
     "index.html": "/House-Booking-Visualization/index.html",
-    "main.f74bdadf.css.map": "/House-Booking-Visualization/static/css/main.f74bdadf.css.map",
-    "main.d7704e69.js.map": "/House-Booking-Visualization/static/js/main.d7704e69.js.map",
+    "main.e676f358.css.map": "/House-Booking-Visualization/static/css/main.e676f358.css.map",
+    "main.d24ad36b.js.map": "/House-Booking-Visualization/static/js/main.d24ad36b.js.map",
     "453.96a6fddc.chunk.js.map": "/House-Booking-Visualization/static/js/453.96a6fddc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f74bdadf.css",
-    "static/js/main.d7704e69.js"
+    "static/css/main.e676f358.css",
+    "static/js/main.d24ad36b.js"
   ]
 }
