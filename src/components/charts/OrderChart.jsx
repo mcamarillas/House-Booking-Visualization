@@ -13,7 +13,7 @@ const OrderChart = ({ data }) => {
 
   return (
     <div>
-      <h2 style={{fontSize:'26px', color: 'white', fontWeight: 'bold', marginTop: '0px', padding:'0'}}>{'Països amb cancel·lacionsper sobre de la mitja'}</h2>
+      <h2 style={{fontSize:'26px', color: 'white', fontWeight: 'bold', marginTop: '0px', padding:'0'}}>{'Països amb cancel·lacions per sobre de la mitja'}</h2>
       <ol>
         {data.map((item, index) => {
           const { country, percent } = parseCountryData(item);

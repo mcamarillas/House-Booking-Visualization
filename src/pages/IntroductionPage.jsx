@@ -24,7 +24,7 @@ export default function IntroductionPage({ data }) {
                 </div>
                 <div className="chart-description"> 
                     <h2>
-                        Sabies que el 37% de les reserves s'acaben cancel·lant? <br /><br />
+                        Sabies que a Portugal, gairebé 4 de cada 10 reserves d’allotjaments turístics acaben cancel·lades?<br />
                         Entenem per què passa això.
                     </h2>
                 </div>
@@ -61,18 +61,18 @@ export default function IntroductionPage({ data }) {
             <div className="exploration-description">
                 <h2> Conclusions </h2>
             </div>
-                            <h3>
-                    Al llarg d’aquesta exploració hem descobert que les cancel·lacions de reserves no són un fenomen aleatori. 
-                    Factors com el país d’origen, el tipus de viatger o el preu de la reserva hi juguen un paper clau.
-                    <br /><br />
-                    Països amb taxes molt altes, patrons diferents segons si viatges sol o en família, i una relació directa amb el cost: 
-                    tot plegat ens mostra que darrere cada cancel·lació hi ha context, comportaments i decisions.
-                    <br /><br />
-                    Entendre aquestes dades ens permet no només analitzar el passat, sinó també anticipar el futur: 
-                    optimitzar la gestió d’allotjaments, personalitzar ofertes i, sobretot, millorar l’experiència dels usuaris.
-                    <br /><br />
-                    Les dades parlen. Només cal saber escoltar-les.
-                </h3>
+            <h3 style={{margin:'2rem', fontSize:'20px'}}>
+            L’anàlisi de les reserves turístiques a Portugal ens revela diversos patrons clau sobre les cancel·lacions: <br></br> <br></br>
+            
+            · El turisme local és el que presenta la taxa de cancel·lació més elevada i és la major font de turisme. <br></br>
+            · L'altra major part del turisme que arriba a Portugal prové d’Europa, i aquest perfil cancel·la molt menys.<br></br>
+            · Les reserves més cares tenen més probabilitats de ser cancel·lades. <br></br>
+            · Com més antelació té la reserva, més risc hi ha que s’acabi cancel·lant. <br></br>
+            · Els grups grans i les famílies cancel·len més sovint que les parelles o els viatgers solitaris. <br></br> <br></br>
+
+            Per tant, tenim un petit punt de partida per començar a aplicar estratègies més personalitzades a les polítiques de cancel·lació.
+            </h3>
+
             <div className="footer">
             </div>
         </div>
